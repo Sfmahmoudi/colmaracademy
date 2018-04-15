@@ -1,18 +1,44 @@
 html {
   font-size: 16px;
-  /* font-family: serif; */
+  font-family: 'Anton', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 
 /* header section */
 header {
-  background-color: lightpink;
+  background-color: #820933;
   display: flex;
   justify-content: space-between;
+  padding: 1rem 1.5rem;
+  font-family: "Anton", sans-serif;
 
 }
 header img {
-  background-color: red;
+  height: 2.5rem;
+  color: #fdfffc;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 2rem;
+  font-size: 1.5rem;
+  color: #fdfffc;
+}
+
+header strong {
+  font-weight: bold;
+}
+
+header ul li {
+  display: inline;
+  color: #fdfffc;
+  margin-left: 1rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+
 }
 
 /* banner section  */
@@ -22,7 +48,7 @@ header img {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: gray;
+  background-color: #e8d7ff;
 }
 
 .banner img {
@@ -34,21 +60,55 @@ header img {
 .banner div {
   margin: 2rem 1.5rem;
 }
+.banner h1 {
+  font-size: 3rem;
+  font-family: "Anton", sans-serif;
+  margin-bottom: 1.5rem;
+  color: #36213e;
+}
+.banner h3 {
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1.5rem;
+  color: #36213e;
+}
+.banner h4 {
+  background-color: #820933;
+  text-align: center;
+  padding: .5rem;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 1.5rem;
+  color: #fdfffc;
+  font-size: 1.25rem;
+}
+.banner h4:hover {
+  background-color: #fe5f55;
+  font-weight: bold;
+  color: #820933;
 
-/* feature section */
-
-.feature {
-  display: flex;
-  background-color: lightblue;
 }
 
-.feature .first-column {
+
+/* orientation section */
+
+.orientation {
+  display: flex;
+  background-color: #fdfffc;
+
+}
+
+.orientation .first-column {
   width: 60%;
   height: 100%;
   margin: 2rem 1.5rem;
 }
+.first-column h2 {
+  font-family: "Anton", sans-serif;
+  color: #36213e;
+  font-size: 2.5rem;
+}
 
-.feature .first-column, .second-column {
+.orientation .first-column, .second-column {
   display: flex;
   flex-direction: column;
 
