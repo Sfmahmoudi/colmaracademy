@@ -12,8 +12,8 @@ header {
   justify-content: space-between;
   padding: 1rem 1.5rem;
   font-family: "Anton", sans-serif;
-
 }
+
 header img {
   height: 2.5rem;
   color: #fdfffc;
@@ -94,7 +94,7 @@ header ul li {
 .orientation {
   display: flex;
   background-color: #fdfffc;
-
+  width: auto;
 }
 
 .orientation .first-column {
@@ -106,12 +106,68 @@ header ul li {
   font-family: "Anton", sans-serif;
   color: #36213e;
   font-size: 2.5rem;
+  padding-top: 2rem;
+}
+.first-column img {
+  width: 100%;
+  height: auto;
 }
 
-.orientation .first-column, .second-column {
+.first-column p {
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  color: #36213e;
+  padding: 1.5rem 0;
+}
+
+.first-column h4 {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+  color: #36213e;
+}
+
+.first-column, .second-column {
   display: flex;
   flex-direction: column;
-
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.second-column img {
+  width: 35%;
+  height: 100%;
+  margin: 2rem 1rem;
+}
+.second-column {
+  padding: 0 1rem;
+  border-left: 1px solid #e8d7ff;
+  width: 40%;
+  height: auto;
+}
+.orientation-info {
+  display: flex;
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e8d7ff;
+}
+.orientation-info:hover {
+  background-color: #fe5f55;
+  color: #36213e;
+}
+.inf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 0;
+}
+.inf h4 {
+  font-family: "Anton", sans-serif;
+  font-size: 1.5rem;
+}
+.inf h6, a {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #36213e;
 }
 
 /* programms section */
@@ -120,7 +176,7 @@ header ul li {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: gray;
+  background-color: #e8d7ff;
   padding: 2rem 4.5rem;
 }
 #learning {
@@ -133,64 +189,128 @@ header ul li {
   font-size: 5rem;
   margin-bottom: 2rem;
   display: block;
+  font-size: 2.5rem;
+  font-family: "Anton", sans-serif;
+  color: #36213e;
 }
  .course {
    display: flex;
    flex-direction: column;
    margin: 1rem;
    width: 30%;
-    border: 2px solid black;
+
  }
+ .course div {
+   background-color: #fdfffc;
+   color: #36213e;
+   font-family: "Lato", sans-serif;
+   line-height: 1.5rem;
+   padding: 1rem 1.5rem 1.5rem 1rem;
+   width: 90%;
+   height: 90%;
+ }
+ .course h2 {
+   font-family: "Anton", sans-serif;
+   font-size: 1.5rem;
+ }
+ .course h3 {
+   margin: .5rem 0;
+ }
+
+ .course img {
+    width: 100%;
+    height: auto;
+  }
 
  /* thesis section */
  .thesis {
   display: flex;
   flex-direction: column;
   padding: 2rem 1.5rem;
-  background-color: lightgreen;
+  background-color: #fdfffc;
  }
 .thesis h1 {
   display: block;
   text-align: center;
-  font-size: 5rem;
-  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  font-family: "Anton", sans-serif;
+  /* margin-bottom: 2rem; */
   width: 100%;
+  color: #36213e;
 }
 #thesis-content {
   display: flex;
   width: 100%;
-
-
+  justify-content: center;
 }
  .thesis video {
-   width: 60%;
-   height: 100%;
-   margin: 2rem 1.5rem;
+   width: 100%;
+   height: auto;
+   background-color: #e8d7ff;
  }
 .left-side {
   display: flex;
   flex-direction: column;
   width: 60%;
-  height: 100%;
   margin: 2rem 1.5rem;
 }
+.left-side h4 {
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+
  .fisma {
    display: flex;
    flex-direction: column;
-
+   margin: 2rem 1.5rem;
+   width: 40%;
+   /* justify-content: space-between; */
  }
  .story {
    display: flex;
-   width: 40%;
-   background-color:
+   width: 100%;
+   border-bottom: 1px solid #e8d7ff;
+   align-items: center;
+ }
+ .story:hover {
+   background-color: #fe5f55;
+   color: #36213e;
+ }
 
+ .story img {
+   width: 35%;
+   height: 100%;
+   margin: 1rem;
+ }
+
+ .story div {
+   width: 65%;
+ }
+
+ .story h4, .left-side h4 {
+   font-family: "Anton", sans-serif;
+   font-size: 1.5rem;
+   color: #36213e;
+ }
+ .story h6, .left-side p {
+   font-family: "Lato", sans-serif;
+   font-size: 1rem;
+   color: #36213e;
  }
 
  /* footer section  */
 footer {
   padding: 1rem 1.5rem;
   display: flex;
-  justify-content: space-between;
-  background-color: gray;
-
+  /* justify-content: space-between; */
+  background-color: #820933;
+  height: 2rem;
+  font-size: 1rem;
+  color: #fdfffc;
+}
+footer p {
+  flex-grow: 1;
+}
+footer span {
+  margin-left: 1rem;
 }
