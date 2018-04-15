@@ -1,11 +1,136 @@
 html {
   font-size: 16px;
-  font-family: serif;
+  /* font-family: serif; */
 }
 
 
 /* header section */
+header {
+  background-color: lightpink;
+  display: flex;
+  justify-content: space-between;
 
+}
 header img {
-  background-color: black;
+  background-color: red;
+}
+
+/* banner section  */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: gray;
+}
+
+.banner img {
+  width: 60%;
+  height: 100%;
+  margin: 2rem 1.5rem;
+}
+
+.banner div {
+  margin: 2rem 1.5rem;
+}
+
+/* feature section */
+
+.feature {
+  display: flex;
+  background-color: lightblue;
+}
+
+.feature .first-column {
+  width: 60%;
+  height: 100%;
+  margin: 2rem 1.5rem;
+}
+
+.feature .first-column, .second-column {
+  display: flex;
+  flex-direction: column;
+
+}
+
+/* programms section */
+
+.programs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: gray;
+  padding: 2rem 4.5rem;
+}
+#learning {
+  display: flex;
+  flex-flow: row wrap;
+
+}
+.programs h1 {
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  display: block;
+}
+ .course {
+   display: flex;
+   flex-direction: column;
+   margin: 1rem;
+   width: 30%;
+    border: 2px solid black;
+ }
+
+ /* thesis section */
+ .thesis {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1.5rem;
+  background-color: lightgreen;
+ }
+.thesis h1 {
+  display: block;
+  text-align: center;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+#thesis-content {
+  display: flex;
+  width: 100%;
+
+
+}
+ .thesis video {
+   width: 60%;
+   height: 100%;
+   margin: 2rem 1.5rem;
+ }
+.left-side {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+  margin: 2rem 1.5rem;
+}
+ .fisma {
+   display: flex;
+   flex-direction: column;
+
+ }
+ .story {
+   display: flex;
+   width: 40%;
+   background-color:
+
+ }
+
+ /* footer section  */
+footer {
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+
 }
