@@ -67,8 +67,8 @@ header a {
 }
 
 header ul li:hover {
-  color: #a682ff;
-  text-decoration-color: #a682ff;
+  color: #8f9491;
+  text-decoration-color: #8f9491;
   text-decoration: underline;
 }
 
@@ -124,7 +124,7 @@ header ul li:hover {
 }
 
 .banner h4:hover {
-  background-color: #a682ff;
+  background-color: #8f9491;
 }
 
 
@@ -197,7 +197,7 @@ header ul li:hover {
 }
 
 .orientation-info:hover {
-  background-color: #a682ff;
+  background-color: #8f9491;
   color: #36213e;
 }
 
@@ -269,7 +269,7 @@ header ul li:hover {
  }
 
  .description:hover {
-  background-color: #a682ff;
+  background-color: #8f9491;
  }
 
  #learning h2 {
@@ -342,7 +342,7 @@ header ul li:hover {
  }
 
  .story:hover {
-   background-color: #a682ff;
+   background-color: #8f9491;
    color: #36213e;
  }
 
@@ -393,8 +393,8 @@ footer a {
 }
 
 footer span:hover {
-  color: #a682ff;
-  text-decoration-color: #a682ff;
+  color: #8f9491;
+  text-decoration-color: #8f9491;
   text-decoration: underline;
 }
 
