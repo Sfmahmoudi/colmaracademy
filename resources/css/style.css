@@ -67,8 +67,8 @@ header a {
 }
 
 header ul li:hover {
-  color: #fe5f55;
-  text-decoration-color: #fe5f55;
+  color: #a682ff;
+  text-decoration-color: #a682ff;
   text-decoration: underline;
 }
 
@@ -79,7 +79,7 @@ header ul li:hover {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: #e8d7ff;
+  background-color: #ebd4cb;
 }
 
 .banner img {
@@ -124,9 +124,7 @@ header ul li:hover {
 }
 
 .banner h4:hover {
-  background-color: #fe5f55;
-  font-weight: bold;
-  color: #820933;
+  background-color: #a682ff;
 }
 
 
@@ -199,7 +197,7 @@ header ul li:hover {
 }
 
 .orientation-info:hover {
-  background-color: #fe5f55;
+  background-color: #a682ff;
   color: #36213e;
 }
 
@@ -234,8 +232,8 @@ header ul li:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #e8d7ff;
-  padding: 2rem 4rem;
+  background-color: #ebd4cb;
+  padding: 2rem;
 }
 
 #learning {
@@ -271,7 +269,7 @@ header ul li:hover {
  }
 
  .description:hover {
-  background-color: #fe5f55;
+  background-color: #a682ff;
  }
 
  #learning h2 {
@@ -344,7 +342,7 @@ header ul li:hover {
  }
 
  .story:hover {
-   background-color: #fe5f55;
+   background-color: #a682ff;
    color: #36213e;
  }
 
@@ -395,21 +393,21 @@ footer a {
 }
 
 footer span:hover {
-  color: #fe5f55;
-  text-decoration-color: #fe5f55;
+  color: #a682ff;
+  text-decoration-color: #a682ff;
   text-decoration: underline;
 }
 
 /* Media Queries */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px), (max-width: 768px) {
   #container {
-    max-width: 480px;
-    padding: 0;
+    max-width: auto;
+    padding: 1rem;
   }
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px), (max-width: 768px) {
   header .mobile-icons {
     display: block;
   }
@@ -432,8 +430,12 @@ footer span:hover {
     height: auto;
   }
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1024px) {
+  .banner h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 480px), (max-width: 768px) {
   .banner {
     display: flex;
     flex-direction: column;
@@ -444,7 +446,7 @@ footer span:hover {
   .banner div {
     width: 90%;
     height: auto;
-    padding: 1rem;
+    padding: 0 1rem;
   }
 
   .banner img {
@@ -454,22 +456,25 @@ footer span:hover {
 
   .banner h1, .banner h3 {
     display: flex;
-    padding: 1rem;
+    padding: 0 1rem;
     text-align: left;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
   }
 
   .banner h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 70%;
+    width: 88%;
     text-align: center;
     margin-left: 1rem;
   }
-
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px), (max-width: 768px) {
   .orientation {
     padding: 0;
   }
@@ -514,6 +519,23 @@ footer span:hover {
   }
 }
 
+@media only screen and (max-width: 1100px) and (min-width: 768px) {
+  .programs {
+    padding: 2rem 1rem;
+  }
+  .description {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .programs {
+    padding: 2rem 1rem;
+  }
+  .description {
+    width: 40%;
+  }
+}
 
 @media only screen and (max-width: 480px) {
   .description img, h3, h4 {
@@ -543,7 +565,7 @@ footer span:hover {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px), (max-width: 768px) {
 
   #thesis-content, .thesis {
     padding: 0;
@@ -576,7 +598,8 @@ footer span:hover {
   }
 }
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 480px), (max-width: 768px) {
   footer a, span {
     display: none;
   }
@@ -587,6 +610,5 @@ footer span:hover {
 
   footer p {
     display: block;
-
   }
 }
